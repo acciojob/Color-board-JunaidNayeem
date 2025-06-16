@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333; /* Default background color */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(40, 20px); /* 40 columns, each 20px wide */
+    grid-template-rows: repeat(20, 20px); /* 20 rows, each 20px tall */
+    gap: 1px;
+    background-color: #222; /* Grid background for separation */
+    padding: 1px;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: #444; /* Default box color */
+    transition: background-color 0.2s ease; /* Smooth transition for hover effect */
+}
+
+.square:hover {
+    background-color: hsl(calc(var(--hue) * 1deg), 70%, 50%); /* Dynamic color on hover */
+}
