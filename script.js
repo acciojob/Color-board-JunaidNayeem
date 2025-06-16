@@ -18,8 +18,8 @@ document.querySelectorAll('.square').forEach(square => {
         // document.body.style.backgroundColor = `hsl(${hue}, 70%, 50%)`;
         
         // Revert background after 1 second
-        setTimeout(() => {
-            document.body.style.backgroundColor = '#333';
-        }, 1000);
+        // setTimeout(() => {
+        //     document.body.style.backgroundColor = '#333';
+        // }, 1000);
     });
 });

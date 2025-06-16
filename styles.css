@@ -22,7 +22,7 @@ body {
     width: 20px;
     height: 20px;
     background-color: #444; /* Default box color */
-    transition: background-color 0.2s ease; /* Smooth transition for hover effect */
+    transition: background-color 1s ease; /* Smooth transition for hover effect */
 }
 
 .square:hover {
