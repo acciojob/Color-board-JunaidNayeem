@@ -20,6 +20,6 @@ body {
 .square {
     width: 20px;
     height: 20px;
-    background-color: #444; /* Default box color */
+    background-color: #1d1d1d; /* Default box color */
     transition: background-color 0.2s ease; /* Smooth transition for color change */
 }

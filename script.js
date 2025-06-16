@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Set the square's background color directly (this will persist)
             square.style.backgroundColor = `hsl(${hue}, 70%, 50%)`;
 			setTimeout(() => {
-        square.style.backgroundColor = '#444'; // Revert to default color
+        square.style.backgroundColor = '#1d1d1d'; // Revert to default color
     }, 1000);
         });
     });
